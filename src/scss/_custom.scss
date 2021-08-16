@@ -1,8 +1,8 @@
 // My Theme Colors
-$red:     #ed2649;
-$light-red: #f5363e;
-$primary-base-color: #ff6062;
-$secondary-base-color: #ff469f;
+$primary-color:     #ed2649;
+$primary-light-red: #f5363e;
+$secondary-base-color: #ff6062;
+$secondary-light-color: #ff469f;
 $dark-color: #B00002;
 $light-color: #ffdfe0;
 $success-color: #5cb85c;
@@ -31,38 +31,9 @@ $gray-900: #212529;
 $black:    #000;
 // End of Gray-Color-Variables
 
-// Start of Theme-Color-Variables
-$primary:       $red;
-$secondary:     $black;
-$dark-color-variant: $dark-color;
-// End of Theme-Color-Variables
-
 // Font Family
-$font-family: "Rubik", sans-serif;
+$font-family: "Poppins", sans-serif;
 
-$myfont: "Rubik" 1.2em;
-$table_head_col: $red;
-$table_row_col: $primary-base-color;
-$table_bor_col: $red;
-$wrapper_width: 1200px;
-$first_col_width: 250px;
 
-div.wrapper {
 
-    margin: auto; 
-    font: $myfont;
-    width: $wrapper_width;
-}
 
-table {
-
-    tr:nth-child(odd) {background: $table_row_col}
-
-    td:first-child {width: $first_col_width}
-  
-    th {
-        background-color: $table_head_col;
-    }
-
-    border: 3px solid $table_bor_col;
-}

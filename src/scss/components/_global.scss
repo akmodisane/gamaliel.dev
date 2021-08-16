@@ -1,0 +1,89 @@
+@use '../custom'as*;
+
+/* GLOBAL STYLES */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family;
+}
+
+
+html,
+body {
+  font-family: $font-family;
+  color: #111;
+}
+
+ul{
+	list-style: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+code, pre {
+    background: #333;
+    color: var(--white-color);
+    padding: 10px;
+}
+
+.btn-close:focus,
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:focus,
+a:hover{
+    text-decoration: none;
+}
+
+a,
+i,
+span{
+    display: inline-block;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video{
+    vertical-align: middle;
+}
+
+
+input:focus, select:focus, textarea:focus { outline: none; }
+input[type=checkbox] 
+input[type=radio] 
+img { max-width: 100%; height: auto; }
+figure { margin: 0; }
+p { margin-bottom: 0px; font-size: 15px; color: #777;}
+h2 { 
+    line-height: 1.66; 
+    margin: 0; 
+    padding: 0;
+    font-weight: bold; 
+    color: $black;
+    font-family: $font-family;
+    font-size: 2rem;
+}
+
+.clear { clear: both; }

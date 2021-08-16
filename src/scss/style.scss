@@ -1,1 +1,13 @@
 @use 'custom';
+
+// Components
+@use 'components/typography';
+@use 'components/button';
+@use 'components/mixin';
+@use 'components/global';
+@use 'components/animations';
+@use 'components/utilities';
+
+// Sections
+@use 'sections/navigation';
+@use 'sections/footer';

@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "gamaliel-icons";
+  src:url("../fonts/gamaliel-icons.eot");
+  src:url("../fonts/gamaliel-iconsd41d.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/gamaliel-icons.woff") format("woff"),
+    url("../fonts/gamaliel-icons.ttf") format("truetype"),
+    url("../fonts/gamaliel-icons.svg#techmarket-icons") format("svg");
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "gamaliel-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="gm-"]:before,
+[class*=" gm-"]:before {
+  font-family: "gamaliel-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gm {
+    display: inline-block;
+    font: normal normal normal 16px/1 gamaliel-icons;
+    font-size: inherit;
+    text-rendering: auto;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gm-accesories:before {
+  content: "\4a";
+}
+.gm-smartphone:before {
+  content: "\4b";
+}
+.gm-shopping-bag:before {
+  content: "\61";
+}
+.gm-grid:before {
+  content: "\62";
+}
+.gm-best-brands:before {
+  content: "\63";
+}
+.gm-arrow-up:before {
+  content: "\64";
+}
+.gm-arrow-right:before {
+  content: "\65";
+}
+.gm-arrow-left-products-header:before {
+  content: "\66";
+}
+.gm-arrow-left:before {
+  content: "\67";
+}
+.gm-arrow-down:before {
+  content: "\68";
+}
+.gm-digital-camera:before {
+  content: "\69";
+}
+.gm-dollar:before {
+  content: "\6a";
+}
+.gm-favorites:before {
+  content: "\6b";
+}
+.gm-feedback:before {
+  content: "\6c";
+}
+.gm-free-delivery:before {
+  content: "\6d";
+}
+.gm-arrow-right-products-header:before {
+  content: "\6e";
+}
+.gm-free-return:before {
+  content: "\6f";
+}
+.gm-safe-payments:before {
+  content: "\70";
+}
+.gm-order-tracking:before {
+  content: "\71";
+}
+.gm-newsletter:before {
+  content: "\72";
+}
+.gm-map-marker:before {
+  content: "\73";
+}
+.gm-long-arrow-right:before {
+  content: "\74";
+}
+.gm-long-arrow-left:before {
+  content: "\75";
+}
+.gm-login-register:before {
+  content: "\76";
+}
+.gm-desktop-pc:before {
+  content: "\77";
+}
+.gm-grid-small:before {
+  content: "\78";
+}
+.gm-breadcrumbs-arrow-right:before {
+  content: "\79";
+}
+.gm-breadcrumbs-arrow-left:before {
+  content: "\79";
+  -moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+.gm-call-us-footer:before {
+  content: "\7a";
+}
+.gm-laptop:before {
+  content: "\41";
+}
+.gm-listing:before {
+  content: "\42";
+}
+.gm-close:before {
+  content: "\43";
+}
+.gm-compare:before {
+  content: "\44";
+}
+.gm-listing-large:before {
+  content: "\45";
+}
+.gm-listing-small:before {
+  content: "\46";
+}
+.gm-departments-thin:before {
+  content: "\47";
+}
