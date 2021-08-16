@@ -1,0 +1,18 @@
+div.wrapper {
+  margin: auto;
+  font: "Rubik" 1.2em;
+  width: 1200px;
+}
+
+table {
+  border: 3px solid #ed2649;
+}
+table tr:nth-child(odd) {
+  background: #ff6062;
+}
+table td:first-child {
+  width: 250px;
+}
+table th {
+  background-color: #ed2649;
+}

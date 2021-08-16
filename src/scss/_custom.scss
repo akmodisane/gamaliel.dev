@@ -1,0 +1,68 @@
+// My Theme Colors
+$red:     #ed2649;
+$light-red: #f5363e;
+$primary-base-color: #ff6062;
+$secondary-base-color: #ff469f;
+$dark-color: #B00002;
+$light-color: #ffdfe0;
+$success-color: #5cb85c;
+$error-color: #d9534f;
+
+$lighten-10-color: #ff7072;
+$lighten-20-color: #ffb0b1;
+$lighten-30-color: #ffefef;
+
+$darken-10-color: #ff3d3f;
+$darken-20-color: #690001;
+$darken-30-color: #230000;
+// End of My Theme Colors
+
+// Start of Gray-Color-Variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// End of Gray-Color-Variables
+
+// Start of Theme-Color-Variables
+$primary:       $red;
+$secondary:     $black;
+$dark-color-variant: $dark-color;
+// End of Theme-Color-Variables
+
+// Font Family
+$font-family: "Rubik", sans-serif;
+
+$myfont: "Rubik" 1.2em;
+$table_head_col: $red;
+$table_row_col: $primary-base-color;
+$table_bor_col: $red;
+$wrapper_width: 1200px;
+$first_col_width: 250px;
+
+div.wrapper {
+
+    margin: auto; 
+    font: $myfont;
+    width: $wrapper_width;
+}
+
+table {
+
+    tr:nth-child(odd) {background: $table_row_col}
+
+    td:first-child {width: $first_col_width}
+  
+    th {
+        background-color: $table_head_col;
+    }
+
+    border: 3px solid $table_bor_col;
+}
