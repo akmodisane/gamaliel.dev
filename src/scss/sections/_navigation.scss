@@ -51,7 +51,7 @@
         list-style: none;
         text-align: center;
         a {
-          font-size: 2rem;
+          font-size: 1.978rem;
           color: #111;
           text-decoration: none;
           font-weight: 300;
@@ -134,8 +134,9 @@
       width: 150px;
     }
     .icons ul li a{
+      top: 0;
       left: 0;
-      margin-right: 20px;
+      margin-right: 3rem;
     }
   }
    
