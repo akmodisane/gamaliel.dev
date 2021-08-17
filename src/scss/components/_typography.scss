@@ -1,0 +1,39 @@
+@use '../custom'as*;
+
+ /* TEXT ELEMENTS */
+ .text-heading {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: $text-heading;
+}
+
+b,
+sup,
+sub,
+u,
+del {
+    color: $primary-color;
+}
+
+.typography {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $text-color;
+    }
+}
+
+.paragraph{
+    color: $text-color;
+    margin: 20px 0 10px;
+    font-size: 1.1rem;
+}
+
+.paragraph-small{
+    color: $text-color;
+    margin: 10px 0 5px;
+    font-size: 0.899rem;
+}

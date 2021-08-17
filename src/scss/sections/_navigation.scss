@@ -1,7 +1,8 @@
 @use '../custom'as*;
 
+/* LOGO MAIN */
 .logo {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 50px;
     z-index: 20;
@@ -24,7 +25,7 @@
     
   }
   .toggle.active {
-    background: $primary-color url(/dist/assets/images/close.png);
+    background: $light-color url(/dist/assets/images/close.png);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,6 +111,7 @@
     left: 0;
   }
 
+  /* MEDIA QUERIES */
   @media (max-width: 1068px) {
     .logo {
       top: 10px;

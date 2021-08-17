@@ -8,6 +8,11 @@
 @use 'components/animations';
 @use 'components/utilities';
 
+
 // Sections
 @use 'sections/navigation';
 @use 'sections/footer';
+@use 'sections/hero';
+@use 'sections/contact';
+@use 'sections/offers';
+@use 'sections/pricing';

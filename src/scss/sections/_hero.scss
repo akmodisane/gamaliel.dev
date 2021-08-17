@@ -1,0 +1,43 @@
+@use '../custom'as*;
+
+/* CREATIVE HERO */
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+    margin-top: 60px;
+}
+section.hero {
+    flex-direction: row;
+    margin-top: 0;
+}
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+}
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 110%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1068px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1{
+        font-size: 1.6rem;
+    }
+    .hero-content p{
+        font-size: 10px;
+    }
+}
+  
