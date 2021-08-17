@@ -12,7 +12,7 @@
   
   .contact-form {
     position: relative;
-    background: $light-color;
+    background: $default;
     width: calc(100% - 400px);
     padding: 60px 40px 20px;
   }
@@ -40,7 +40,7 @@
   .contact-form .row textarea {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    color: #111;
+    color: $gray-800;
     background: transparent;
     width: 100%;
     padding: 10px;
@@ -63,7 +63,7 @@
   
   .contact-info {
     width: 350px;
-    background: $light-color;
+    background: $default;
     padding: 60px 40px 20px;
   }
   
