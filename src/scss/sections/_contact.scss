@@ -112,3 +112,16 @@
         padding: 30px 30px 20px;
       }
   }
+
+  @media (max-width: 768px) {
+    .contact-info{
+      display: none;
+    }
+    .contact {
+      flex-direction: column;
+    }
+    .contact-form {
+      width: 100%;
+      padding: 8px 3px 3px;
+    }
+  }

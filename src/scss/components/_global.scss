@@ -8,6 +8,9 @@
 	font-family: $font-family;
 }
 
+.main{
+    width: 90%;
+}
 
 html,
 body {
@@ -17,6 +20,11 @@ body {
 
 ul{
 	list-style: none;
+}
+
+li{
+    list-style: none;
+    color: none;
 }
 
 p {

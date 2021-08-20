@@ -15,7 +15,23 @@
     &:hover {
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
+    li{
+      margin: 10px 10px;
+      border-bottom: 1px solid $gray-200;
+      &:last-child{
+        border: none;
+      }
+      i{
+        font-size: 2rem;
+        font-weight: 600;
+        color: $gray-700;
+      }
+      h3{
+        font-size: 2rem;
+      }
+    }
   }
+  
 
 /* MEDIA QUERIES */
 @media (max-width: 1068px) {
@@ -25,5 +41,10 @@
 @media (max-width: 768px) {
     .pricing {
         grid-template-columns: 1fr;
+    }
+    .title{
+      h1{
+        font-size: 1.78rem;
+      }
     }
 }
