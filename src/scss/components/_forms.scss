@@ -1,5 +1,9 @@
 @use '../custom'as*;
 
+.login{
+    width: 50%;
+    place-items: center;
+}
 .log {
     input[type=text] {
         width: 100%;
@@ -46,12 +50,16 @@
         margin-left: 30px;
         margin-bottom: 5px;
     }
+    a{
+        margin-left: 100px;
+        color: $gray-700;
+    }
 }
-
-.reg {
+.reg{
     width: 50%;
-    margin: 0 10px;
-
+    place-items: center;
+}
+.registration {
     input[type=text] {
         width: 100%;
         box-sizing: border-box;
@@ -77,11 +85,11 @@
         border: 1px solid $primary-color;
         border-radius: 4px;
         font-size: 16px;
+        margin-bottom: 1rem;
         background-color: $light-color;
         background-position: 10px 10px; 
         background-repeat: no-repeat;
         padding: 12px 0 12px 20px;
-        margin-bottom: 1rem;
         &:focus{
             border: none;
             outline-color: $primary-color;
@@ -95,85 +103,16 @@
     p{
         font-size: 14px;
         font-weight: 200;
+        margin-left: 30px;
         margin-bottom: 5px;
+    }
+    a{
+        margin-left: 100px;
+        color: $gray-700;
     }
 }
 
-.registration {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-    display: grid;
-    flex-wrap: wrap;
-    .reg-form {
-        position: relative;
-        background: $default;
-        width: 100%;
-        padding: 60px 40px 20px;
-        form{
-            width: 70%;
-            margin-left: 170px;
-            a{
-                margin-left: 250px;
-                color: $gray-700;
-            }
-        }
-        .row{
-            width: 100%;
-            display: flex;
-            input[type=text] {
-                width: 100%;
-                box-sizing: border-box;
-                border: 1px solid $primary-color;
-                border-radius: 4px;
-                font-size: 1rem;
-                background-color: $light-color;
-                background-position: 10px 10px; 
-                background-repeat: no-repeat;
-                padding: 12px 0 12px 20px;
-                margin-bottom: 1rem;
-                &:focus{
-                    border: none;
-                    outline-color: $primary-color;
-                    opacity: 0.25;
-                    background-color: $primary-color;
-                }
-            }
-            input[type=password] {
-                width: 100%;
-                box-sizing: border-box;
-                border: 1px solid $primary-color;
-                border-radius: 4px;
-                font-size: 1rem;
-                background-color: $light-color;
-                background-position: 10px 10px; 
-                background-repeat: no-repeat;
-                padding: 12px 0 12px 20px;
-                margin-bottom: 1rem;
-                &:focus{
-                    border: none;
-                    outline-color: $primary-color;
-                    opacity: 0.25;
-                    background-color: $primary-color;
-                }
-            }
-            button[type='submit'] {
-                width: 50%;
-                margin-left: 170px;
-                height: 40px;
-                font-size: 1.2rem;
-            }
-        }
-        .input50{
-            width: 50%;
-            margin: 0 10px;
-        }
-        .input100{
-            width: 100%;
-            margin: 0 10px;
-        }
-      }
-  }
+
 
 
 
@@ -185,40 +124,23 @@
 
 @media (max-width: 768px) {
     
-    .registration .reg-form{
-        position: relative;
+    .login{
         width: 100%;
-        background: transparent;
-    }
-    .registration .reg-form form{
-        width: 100%;
-        margin-left: 0;
-        a{
-            margin-left: 0;
-            font-size: 0.7rem;
+        .log{
+            a{
+                margin-left: 0;
+            }
         }
     }
-    .registration .reg-form .row{
-        display: grid;
+
+    .reg{
         width: 100%;
-        input[type=text] {
-            width: 100%;
-            font-size: 0.5rem;
-            padding: 8px 3px 3px 8px;
-            
-        }
-        input[type=password] {
-            width: 100%;
-            font-size: 0.5rem;
-            padding: 8px 3px 3px 8px;
-        }
-        button[type='submit'] {
-            width: 50%;
-            margin-left: 0;
-            padding: 0 10px;
-            height: 40px;
-            font-size: 0.7rem;
+        .registration{
+            a{
+                margin-left: 0;
+            }
         }
     }
+
 }
    
