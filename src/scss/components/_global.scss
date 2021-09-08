@@ -16,6 +16,7 @@ html,
 body {
   font-family: $font-family;
   color: #111;
+  scroll-behavior: smooth;
 }
 
 ul{
@@ -120,7 +121,7 @@ element.style{
     right: 30px;
     z-index: 9;
     cursor: pointer;
-    -webkit-transition: all 8s ease 2s;
-    transition: all 8s ease 2s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
     border-radius: 1px;
 }
