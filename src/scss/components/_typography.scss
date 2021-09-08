@@ -1,12 +1,12 @@
 @use '../custom'as*;
 
  /* TEXT ELEMENTS */
- .text-heading {
+ 
+.text-heading {
     margin-bottom: 30px;
     font-size: 3rem;
     color: $text-heading;
 }
-
 
 b,
 sup,
@@ -37,13 +37,13 @@ h3{
     font-size: 1.6rem;
 }
 h4{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 h5{
-    font-size: 0.5rem;
+    font-size: 20px;
 }
 h6{
-    font-size: 0.3rem;
+    font-size: 0.5rem;
 }
 
 .paragraph{
@@ -56,4 +56,35 @@ h6{
     color: $text-color;
     margin: 10px 0 5px;
     font-size: 0.899rem;
+}
+
+/* Text Sizes */
+
+.lead {
+    font-size: 20px;
+    color: $text-heading;
+}
+
+.sm {
+    font-size: 1rem;
+    color: $text-heading;
+}
+
+.md {
+    font-size: 2rem;
+    color: $text-heading;
+}
+
+.lg {
+    font-size: 3rem;
+    color: $text-heading;
+}
+
+.xl{
+    font-size: 4rem;
+    color: $text-heading;
+}
+
+.text-center{
+    text-align: center !important;
 }

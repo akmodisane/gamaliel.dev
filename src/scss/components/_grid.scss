@@ -1,0 +1,52 @@
+@use '../custom'as*;
+
+// Grid Wrapper Containers
+.gwrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+}
+.grow{
+    margin-top: 60px;
+    padding: 136px;
+}
+
+// Align items center
+.align-items-center{
+    align-items: center !important;
+}
+
+// Grid Responsive Columns
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
